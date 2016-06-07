@@ -1,5 +1,8 @@
 # NCU_OS作業
 
+- 1. Solve share memory problem of thread (完成)
+- 2.Implement Sleep system call(未完成)
+
 ##1. Solve share memory of problem of thread without synchronized or Mutex
 
 ###現狀:
@@ -307,5 +310,17 @@ void AddrSpace::RestoreState()
 执行结果:
 
 ![1.png](1.png)
+
+###遇到的困難
+
+在對load()函數的executable->ReadAt(...)部分作了修改之後出現segmentfault錯誤
+
+###如何解決
+
+改正爲正確的內存地址.
+
+###心得
+
+仔細讀代碼,多查資料.
 
 
