@@ -4,6 +4,7 @@
 
 刘星焜 104502909
 
+- Finish installation of NachOS(完成)
 - 1. Solve share memory problem of thread (完成)
 - 2.Implement Sleep system call(未完成)
 
@@ -11,7 +12,7 @@
 
 ###現狀:
 兩個thread分配到重複的page,導致執行出錯.
-  
+
 ###目標:
 分配page時,記錄被佔用的page,只將空閒的page分配給thread.
   
