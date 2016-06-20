@@ -1,5 +1,9 @@
 # NCU_OS作業
 
+##分組
+
+刘星焜 104502909
+
 - 1. Solve share memory problem of thread (完成)
 - 2.Implement Sleep system call(未完成)
 
